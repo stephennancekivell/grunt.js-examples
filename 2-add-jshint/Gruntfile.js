@@ -7,8 +7,14 @@ module.exports = function(grunt){
 					'app.min.js': ['app.js']
 				}
 			}
+		},
+		jshint: {
+			files: ['*.js']
 		}
 	});
 
 	grunt.loadNpmTasks('grunt-contrib-uglify');
+	grunt.loadNpmTasks('grunt-contrib-jshint');
+
+	grunt.registerTask('default', ['jshint', 'uglify']);
 };
