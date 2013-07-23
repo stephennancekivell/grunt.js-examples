@@ -1,0 +1,9 @@
+{
+  "name": "3-live-reload",
+  "version": "1.0.0",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-watch": "~0.5.1",
+    "grunt-contrib-less": "~0.6.4"
+  }
+}
