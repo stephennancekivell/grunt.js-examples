@@ -1,2 +1,4 @@
 */node_modules
 *.min.js
+4-live-reload/style.css
+5-layout/target
