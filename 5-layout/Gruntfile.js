@@ -42,6 +42,6 @@ module.exports = function(grunt){
 	grunt.loadNpmTasks('grunt-env');
 	grunt.loadNpmTasks('grunt-preprocess');
 
-	grunt.registerTask('go', ['less', 'env:dev', 'preprocess', 'watch']);
-	grunt.registerTask('dist', ['less', 'preprocess']);
+	grunt.registerTask('go', ['env:dev', 'make', 'watch']);
+	grunt.registerTask('make', ['less', 'preprocess']);
 };
